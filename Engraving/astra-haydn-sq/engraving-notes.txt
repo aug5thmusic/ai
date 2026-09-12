@@ -1,0 +1,88 @@
+MENUETTO & TRIO - ENGRAVING NOTES
+
+Source: the supplied sq-minuet.pdf, two scanned pages numbered 7 and 8.
+Instrumentation: two violins, viola, and cello.
+This revision relies on the supplied scan, its parallel passages, and
+harmonic context. No external score has been used for the readings below.
+No composer or larger-work identification is visible on the supplied pages;
+none has been added. No metronome marking has been supplied.
+
+DELIVERABLES
+sq-minuet.pdf - four-page A4 full score, engraved with LilyPond 2.26.0.
+sq-minuet.ly  - self-contained, editable LilyPond source. No extra includes,
+fonts, or packages are needed beyond a standard LilyPond installation.
+
+REBUILD
+In the directory containing the .ly file, run:
+  lilypond sq-minuet.ly
+
+SOURCE CONVENTIONS
+The music is transcribed in concert pitch with the source clefs and keys.
+Written measure numbers restart at 1 for the Trio. Both alternate endings
+count in the written numbering: Trio 12/13 and 31/32. Pitch names below use
+scientific pitch notation, with C4 = middle C.
+
+Repeats, slurs, staccato dots, dynamics, hairpins, triplets, trills, grace
+notes, and single-stroke measured tremolos are retained. Unslashed small
+quarter notes are set as appoggiaturas; slashed small eighth notes are set
+as acciaccaturas. Old-style quarter rests use modern rest glyphs. The
+source's rounded ending spans use conventional numbered volta brackets.
+The final "M. D. C." is expanded to "Menuetto da capo". No additional
+performance rule about repeats on the return has been imposed.
+
+Line breaks, page breaks, instrument labels, and measure numbers are
+editorial layout aids.
+
+PITCH REVISIONS
+The following changes correct the previous transcription, not asserted
+errors in the printed source. All are in Violin I: 21 changed pitches
+(including one grace note) across eight written measures.
+
+Menuetto
+1. M. 1, beat 2: D5 -> E-flat5, as specified by the user. Beat 3 remains
+   G5. The opening figure is B-flat4, E-flat5, G5.
+2. M. 3, beat 2: E-flat5 -> F5, as specified by the user. The figure is
+   D5, F5, B-flat5, outlining B-flat harmony.
+3. M. 10: the appoggiatura and half note are E-flat5 -> D5, replacing
+   F5 -> E-flat5. The grace note lies in the top space and the half note
+   on the next staff line down. D5 supplies the third of the B-flat
+   harmony at this half cadence; compare the figure in m. 6.
+
+Trio
+4. Mm. 10 and 29: the six eighth notes are B-flat5, F5, D6, A5,
+   B-flat5, F5. The previous version had B-flat5, G5, E-flat6,
+   B-flat5, C6, G5. Surviving staff and ledger lines, the matching
+   passages, and the B-flat/D harmony support the revised reading.
+5. M. 19, beat 3: the triplet is D5, E-flat5, F5, replacing E-flat5,
+   F5, G5. It moves in thirds with Violin II's B-flat4, C5, D5,
+   continuing the parallel motion established in m. 18.
+6. M. 26, beats 2-3: A-flat5 half note, replacing B-flat5.
+7. M. 27: A-flat5 eighth, G5 eighth, G5 half, replacing B-flat5,
+   A5, A5. The repeated flat sign belongs to A, not B. The chromatic
+   A-flat over the sustained B-flat accompaniment resolves to G over
+   E-flat in the bass, giving a 4-3 resolution in m. 27. The earlier
+   note calling these signs courtesy B-flats was incorrect.
+
+WORN GLYPHS AND EDITORIAL READINGS
+Staff position and surviving ledger lines are the primary evidence;
+parallel passages, voice leading, and harmony help resolve damaged heads.
+Worn ink can leave a remnant above a note's actual center, so the highest
+surviving ink alone is not treated as its pitch. Harmonic plausibility is
+used to interpret unclear notation, not to regularize clear dissonances.
+
+1. Menuetto m. 16, viola, beat 3: D4 is read as a quarter note after
+   the half-note B-flat3. The pale, hollow-looking head is consistent
+   with wear; the 3/4 meter and matching cello rhythm support a quarter.
+   The earlier description of a printed half-note error was too strong.
+2. Menuetto m. 28, cello: the final two noteheads are degraded. The bar
+   is read as three quarters, E-flat3, B-flat2, E-flat2, matching the
+   rhythm and contour of the viola's closing bar.
+3. High notes in Trio mm. 9 and 28: the viola's E-flat5 and cello's
+   E-flat4 are retained. Ledger relationships, octave doubling, and
+   their resolution to D in the next measure support these readings.
+
+QUALITY CHECKS
+All four parts have been compared with enlarged views of the supplied
+scan. Every written measure has a duration and bar-number check. The
+revised source compiles without warnings, and all four rendered pages
+have been visually inspected for spacing, collisions, and legibility.

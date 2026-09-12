@@ -1,0 +1,23 @@
+MENUETTO & TRIO - EDITED SESSION RECORDING
+
+Video: sq-minuet-session-edited.mp4
+Length: 7 minutes 24.90 seconds
+Format: 1920 x 1080, 30 fps, H.264 MP4
+
+The upper-right clock shows elapsed time in the ORIGINAL recording,
+from 00:00:00 to 00:55:24. It accelerates with the footage. The label
+below the clock shows the current playback multiplier.
+
+The entire source timeline is retained in chronological order. Waiting
+and repetitive operations run faster; key prompts, corrections, and
+results receive more viewing time. The recording contains digital
+silence, so the edited file has no audio track.
+
+CHAPTERS (edited-video time)
+00:00  The Request
+00:24  Transcription
+01:00  First Engraving
+01:42  Pitch Review
+04:35  Corrected Score
+05:22  The Parts
+06:28  Final Spacing
